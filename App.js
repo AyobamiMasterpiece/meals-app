@@ -62,14 +62,13 @@ export default function App() {
         <NavigationContainer>
           <Stack.Navigator
             screenOptions={{
-              headerBackVisible: false,
               headerStyle: {
                 backgroundColor: "grey",
               },
               headerTintColor: "white",
               headerTitleAlign: "center",
               animationTypeForReplace: "pop",
-              contentStyle: {
+               contentStyle: {
                 backgroundColor: "white",
               },
             }}
